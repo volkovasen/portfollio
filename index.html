@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- color toolbar -->
+    <meta name="theme-color" content="#111111">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link icon str -->
+    <link rel="shortcut icon" href="img/icon/icon_str.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptation.css">
+    <title>volkova design.</title>
+</head>
+<body>
+    <!-- header -->
+    <!-- cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-dot-outline"></div>
+    <!-- <div class="container"> -->
+    <div class="container">
+        <div class="header">
+            <p class="subtitle">volkova design<span>.</span></p>
+            <!-- burger menu -->
+            <div class="navigation">
+                <a class="text" href="#portfolio">портфолио</a>
+                <a class="text" href="#contact">контакты</a>
+            </div>
+        </div>
+    </div>
+    <!-- top -->
+    <div class="container">
+        <div class="top">
+            <h1 class="title title_top">дизайн<br>итерфейсов</h1>
+            <div class="top-contant grid">
+                <div class="top-contant-left">
+                    <div class="top-contant_text">
+                        <p class="text">UX/UI DESIGN</p>
+                        <p class="text">WEB DESIGN</p>
+                    </div>
+                    <a href="" class="subtitle button">обсудить проект</a>
+                </div>
+                <h1 class="title title-right">графический<br>дизайнер</h1>
+            </div>
+        </div>
+    </div>
+    <!-- for me -->
+    <div class="container grid">
+        <div class="me">
+            <p class="text">я junior UX/UI и графический дизайнер. на данный момент учусь по специальности: информационные системы и програмирование веб-дизайна.</p>
+            <p class="text">знаю языки програмирования: <span>python, php, js, css, html.</span> </p>
+            <p class="text">работаю в программах: <span>Figma, пакет программ Adobe ( PhotoShop, Illustrator ), blender.</span> </p>
+            <p class="text">я понимаю потребность пользователя, стремлюсь к инновациям и совершенствованию, постоянно развиваю свои навыки и слежу за последними тендециями.</p>
+        </div>
+    </div>
+    <!-- filter -->
+    <div class="container" id="portfolio">
+        <h1 class="title title_filter">проекты<span>.</span> </h1>
+        <!-- buttons for switching the filter -->
+        <div id="myBtnContainer">
+          <button class="btn subtitle  active" onclick="filterSelection('all')">все проекты</button>
+          <button class="btn subtitle" onclick="filterSelection('info')">инфографика</button>
+          <button class="btn subtitle" onclick="filterSelection('ux/ui')">ux/ui</button>
+          <button class="btn subtitle" onclick="filterSelection('social-media')">social media</button>
+          <!-- <button class="btn subtitle " onclick="filterSelection('graphic')">графический дизайн</button> -->
+          <!-- <button class="btn subtitle " onclick="filterSelection('3D')">3D</button> -->
+        </div>
+        <!-- view filter -->
+        <div class="wrapper filter_content">
+            <!-- ux/ui -->
+            <a class="filterDiv ux/ui" href="starfflight.html"><img src="img/starflight/str_starflight_1.png" alt=""></a>
+            <a class="filterDiv ux/ui" href="newera.html"><img src="img/newera/str_newera.png" alt=""></a>
+            <a class="filterDiv ux/ui" href="rossatom.html"><img src="img/rossatom/str_rossatom_1.png" alt=""></a>
+            <a class="filterDiv ux/ui" href="rossatom.html"><img src="img/rossatom/str_rossatom_1.png" alt=""></a>
+            <!-- info -->
+            <div class="filterDiv info"><img src="img/info/post_shape_1.png" alt=""></div>
+            <div class="filterDiv info" href=""><img src="img/info/post_shape_2.png" alt=""></div>
+            <div class="filterDiv info" href=""><img src="img/info/post_shape_3.png" alt=""></div>
+            <div class="filterDiv info" href=""><img src="img/info/post_shape_4.png" alt=""></div>
+            <div class="filterDiv info" href=""><img src="img/info/plakat_3.png" alt=""></div>
+            <div class="filterDiv info" href=""><img src="img/info/plakat_4.png" alt=""></div>
+            <div class="filterDiv info" href=""><img src="img/info/plakat_5.png" alt=""></div>
+            <div class="filterDiv info" href=""><img src="img/info/plakat_8.png" alt=""></div>
+            <div class="filterDiv info " href=""><img src="img/info/plakat_9.png" alt=""></div>
+            <div class="filterDiv info " href=""><img src="img/info/plakat_10.png" alt=""></div>
+            <div class="filterDiv info " href=""><img src="img/info/plakat_11.png" alt=""></div>
+            <div class="filterDiv info " href=""><img src="img/info/plakat_12.png" alt=""></div>
+            <!-- sicial media -->
+            <a class="filterDiv social-media" href="newera.html"><img src="img/newera/post_newera_1.png" alt=""></a>
+            <a class="filterDiv social-media" href="newera.html"><img src="img/newera/post_newera_2.png" alt=""></a>
+            <a class="filterDiv social-media" href="newera.html"><img src="img/newera/post_newera_3.png" alt=""></a>
+            <a class="filterDiv social-media" href="starfflight.html"><img src="img/starflight/post_starflight_1.png" alt=""></a>
+            <a class="filterDiv social-media" href="starfflight.html"><img src="img/starflight/post_starflight_2.png" alt=""></a>
+            <a class="filterDiv social-media" href="starfflight.html"><img src="img/starflight/post_starflight_3.png" alt=""></a>
+            <a class="filterDiv social-media" href="starfflight.html"><img src="img/starflight/post_starflight_4-1.png" alt=""></a>
+            <a class="filterDiv social-media" href="starfflight.html"><img src="img/starflight/post_starflight_4.png" alt=""></a>
+            <!-- graphic -->
+            <!-- <a class="filterDiv graphic" href=""><img src="" alt=""></a>
+            <a class="filterDiv graphic" href=""><img src="" alt=""></a>
+            <a class="filterDiv graphic" href=""><img src="" alt=""></a> -->
+            <!-- 3D -->
+            <!-- <a class="filterDiv 3D" href=""><img src="" alt=""></a> 
+            <a class="filterDiv 3D" href=""><img src="" alt=""></a> 
+            <a class="filterDiv 3D" href=""><img src="" alt=""></a>  -->
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="container">
+        <div class="contact" id="contact">
+            <h1 class="title title_filter">контакты<span>.</span> </h1>
+            <div class=""></div>
+            <div class="contact_link">
+                <a href="https://t.me/ksvollkov" class="subtitle contact_social-media">Telegram</a>
+                <a href="mailto:volkovaksa@gmail.com" class="subtitle contact_social-media">Email</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
